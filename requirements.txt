@@ -1,0 +1,13 @@
+streamlit
+pymupdf
+pydantic>=2.0
+pytest
+
+streamlit
+pymupdf
+pydantic>=2.0
+pytest
+
+sentence-transformers
+faiss-cpu
+numpy

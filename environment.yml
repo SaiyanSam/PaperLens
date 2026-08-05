@@ -1,0 +1,6 @@
+name: paperlens
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+prefix: /home/saurbh/miniconda3/envs/paperlens
