@@ -19,20 +19,6 @@ Unlike a traditional Retrieval-Augmented Generation (RAG) chatbot, PaperLens dyn
 
 ---
 
-# Development Roadmap (Week 1)
-
-| Tasl | Tasks | Deliverable | Progress |
-|-----|-------|-------------|----------|
-| Task 1 | Repository setup, project structure, PDF ingestion, page-wise text extraction, Pydantic document validation, JSON export, Streamlit upload interface | Validated document ingestion pipeline | ✅ Done |
-| Task 2 | Text cleaning refinement, chunking pipeline, Sentence Transformer embeddings, FAISS vector store, semantic retrieval | Retrieve relevant document chunks from uploaded papers | 🔄 Active |
-| Task 3 | LCEL-based QA chain, grounded prompting, citation formatting, answer generation | End-to-end citation-grounded question answering | ⏳ Planned |
-| Task 4 | LangChain tool registry, `search_papers` tool, Pydantic tool schemas, validated tool execution | Agent can execute validated search tool | ⏳ Planned |
-| Task 5 | `summarize_paper` tool, section-aware summarization, structured summaries | Agent generates structured paper summaries | ⏳ Planned |
-| Task 6 | `compare_papers` tool, independent retrieval for multiple papers, comparison chain, improved Streamlit interface | Cross-paper comparison with citations | ⏳ Planned |
-| Task 7 | Project polish, README improvements, architecture diagram, screenshots, demo GIF, final testing | Placement-ready GitHub repository | ⏳ Planned |
-
----
-
 ## Technology Stack
 
 | Component | Technology |
@@ -46,36 +32,6 @@ Unlike a traditional Retrieval-Augmented Generation (RAG) chatbot, PaperLens dyn
 | LLM Framework | LangChain + LCEL |
 | Agent Framework | LangChain Tool Calling |
 | Testing | PyTest |
-
----
-
-## Project Status
-
-Current milestone:
-
-```text
-PDF Upload
-    ↓
-Page-wise Text Extraction
-    ↓
-Document Validation
-    ↓
-JSON Export
-```
-
-Next milestone:
-
-```text
-PDF
-    ↓
-Chunking
-    ↓
-Embeddings
-    ↓
-FAISS
-    ↓
-Semantic Retrieval
-```
 
 ---
 
@@ -97,8 +53,5 @@ Validated Outputs
 Citation-Grounded Response
 ```
 
----
-
-## License
 
 This project is being developed for educational, research, and portfolio purposes.
